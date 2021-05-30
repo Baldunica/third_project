@@ -19,7 +19,6 @@
         .cover__subtitle {
             padding: 299px 204px 115px;
             max-width: 360px;
-            max-height: 66px;
         }
     }
     @media all and (max-width: 767px) {

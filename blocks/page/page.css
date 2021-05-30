@@ -1,0 +1,8 @@
+.page {
+    background-color:#333333;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    -webkit-font-smoothing: antialiased;
+    }

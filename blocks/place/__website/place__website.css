@@ -1,0 +1,26 @@
+.place__website {
+    grid-column-start: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-area: website;
+    color: #AAAAAA;
+    }
+    @media all and (max-width: 1279px) and (min-width: 1024px) {
+        .place__website {
+        max-width: 456px;
+        }
+    }
+    @media all and (max-width: 1023px) and (min-width: 768px) {
+        .place__website {
+            max-width: 352px;
+            max-height: 46px;
+            align-self: flex-end;
+        }
+    }
+    @media all and (max-width: 767px) {
+        .place__website {
+            max-width: 288px;
+            grid-area: website;
+        }
+    }

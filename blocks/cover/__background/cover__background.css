@@ -1,6 +1,7 @@
 .cover__background {
     width: 100%;
-    min-height: 62.5vw;
+    min-height: 58vw;
+    object-fit: cover;
     position: relative;
     z-index: 1;
     background-image: url(../../../images/cover-trains.jpg);
@@ -27,6 +28,11 @@
     }
     .cover__background:hover::before {
         opacity: 0.8;	
+    }
+    @media all and (min-width: 1024px) and (max-width: 1279px) {
+        .cover__background {
+            min-height: 62.5vw;
+        }
     }
     @media all and (max-width: 1023px) and (min-width: 768px) {
         .cover__background {

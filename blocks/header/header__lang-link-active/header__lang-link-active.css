@@ -1,0 +1,7 @@
+.header__lang-link-active {
+    margin-right: 18px;
+    text-decoration-line: underline;
+    }
+    .header__lang-link-active:hover {
+    opacity: 0.7;
+    }

@@ -14,7 +14,6 @@
     @media all and (max-width: 1023px) and (min-width: 768px) {
         .place__website {
             max-width: 352px;
-            max-height: 46px;
             align-self: flex-end;
         }
     }
@@ -22,5 +21,6 @@
         .place__website {
             max-width: 288px;
             grid-area: website;
+            margin: 0px 16px;
         }
     }

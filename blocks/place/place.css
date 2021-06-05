@@ -42,7 +42,6 @@
             'paragraph'
             'paragraph';
             row-gap: 32px;
-            min-height: 964px;
             margin: 50px 0px 0px;
             grid-template-columns: minmax(300px,1fr);
         }

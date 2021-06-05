@@ -5,6 +5,7 @@
     line-height: 58px;
     color: white;
     max-width: 690px;
+    margin: 0;
     }
     @media all and (max-width: 767px) {
         .intro__title {

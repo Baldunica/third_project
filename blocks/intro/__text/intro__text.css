@@ -1,5 +1,5 @@
-.intro__subtitle {
-    margin-top: 40px;
+.intro__text {
+    margin: 40px 0px 0px 0px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -8,17 +8,17 @@
     max-width: 690px;
     }
     @media all and (max-width: 1279px) and (min-width: 1024px) {
-        .intro__subtitle {
+        .intro__text {
             min-width: 690px;
         }
     }
     @media all and (max-width: 1023px) and (min-width: 768px) {
-        .intro__subtitle {
+        .intro__text {
             min-width: 720px;
         }
     }
     @media all and (max-width: 767px) {
-        .intro__subtitle {
+        .intro__text {
             max-width: 288px;
             font-style: normal;
             font-weight: normal;

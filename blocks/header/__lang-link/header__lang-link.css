@@ -1,5 +1,4 @@
 .header__lang-link {
-    display: flex;
     color: white;
     font-style: normal;
     font-weight: normal;
@@ -7,9 +6,11 @@
     line-height: 28px;
     text-align: right;
     text-decoration-line: none;
-    margin: 0;
-    padding: 0;
     list-style-type: none;
+    margin-left: 18px;
+    }
+    .header__lang-link:hover {
+        opacity: 0.8;
     }
     @media all and (max-width: 767px) {
         .header__lang-link {
